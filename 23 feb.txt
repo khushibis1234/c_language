@@ -1,0 +1,515 @@
+
+
+1)#include<stdio.h>
+int
+main ()
+{
+  int num =1;
+
+  while (num<=100)
+	{
+
+     printf ("\n%d ",num);
+
+	  num++;
+	}
+
+  return 0;
+}
+
+
+2)#include<stdio.h>
+int
+main ()
+{
+  int num =100;
+
+  while (num>=1)
+	{
+
+     printf ("\n%d ",num);
+
+	  num--;
+	}
+
+  return 0;
+}
+
+3)#include<stdio.h>
+int
+main ()
+{
+  int num =1;
+
+  while (num<=100)
+	{
+	    if(num%2==0)
+	   {
+	        printf ("\n%d ",num);
+	        
+	    }
+
+     
+
+	  num++;
+	}
+
+  return 0;
+}
+
+4)#include<stdio.h>
+int
+main ()
+{
+  int num =100;
+
+  while (num>=1)
+	{
+	    if(num%2==0)
+	   {
+	        printf ("\n%d ",num);
+	        
+	    }
+
+     
+
+	  num--;
+	}
+
+  return 0;
+}
+
+5)#include<stdio.h>
+int
+main ()
+{
+  int num =1;
+
+  while (num<=100)
+	{
+	    if(num%2!=0)
+	   {
+	        printf ("\n%d ",num);
+	        
+	    }
+
+     
+
+	  num++;
+	}
+
+  return 0;
+}
+6)#include<stdio.h>
+int
+main ()
+{
+  int num =50;
+
+  while (num<=500)
+	{
+	    
+	   {
+	        printf ("\n%d ",num);
+	        
+	    }
+
+     
+
+	  num++;
+	}
+
+  return 0;
+}
+
+7)#include<stdio.h>
+int
+main ()
+{
+  int num =500;
+
+  while (num>=50)
+	{
+	    
+	   {
+	        printf ("\n%d ",num);
+	        
+	    }
+
+     
+
+	  num--;
+	}
+
+  return 0;
+}
+8)#include<stdio.h>
+int
+main ()
+{
+  int a=50;
+  
+  while (a<=1000)
+	{
+	    if(a%2==0)
+	      printf ("\n %d ",a);
+	        
+	        a++;
+	   }
+	   
+	   return 0;
+	}
+	        
+	        
+	  
+9)#include<stdio.h>
+int 
+main () 
+ { 
+int a = 34;
+  
+ 
+while (a <= 57){
+	
+printf ("\n %d ", a);
+	  
+ a++;
+	
+}
+  
+return 0;
+
+}
+10)#include<stdio.h>
+int 
+main () 
+ { 
+int a = 34;
+  
+ 
+while (a <= 57)
+	
+	{
+	    if(a%2==0)
+	  
+ printf ("\n %d ", a);
+	  a++;
+	
+    }
+  
+ 
+return 0;
+
+}
+
+11)#include<stdio.h>
+int 
+main () 
+ { 
+int a = 34;
+  
+ 
+while (a <= 57)
+	
+	{
+	    if(a%2!=0)
+	  
+ printf ("\n %d ", a);
+	  a++;
+	
+    }
+  
+ 
+return 0;
+
+}
+
+12)
+#include<stdio.h>
+int main () 
+ { 
+int a = 1;
+int total=0;
+while(a<=10){
+    printf("\n%d",a);
+    total=total+a;
+    printf("\t%d",total);
+    a++;
+    
+}
+  
+ return 0;
+
+}
+
+
+ 
+ 13)include<stdio.h>
+int
+main ()
+{
+  int a = 1;
+  int total;
+  while (a <= 10)
+	{
+	  
+		total = a * 2;
+		printf ("\n%d", total);
+
+
+	  a++;
+	  }
+
+
+
+	  return 0;
+	}
+
+
+
+
+14)#include<stdio.h>
+int
+main ()
+{
+  int a;
+  int b=1;
+  printf("enter the table");
+  scanf("%d",&a);
+  while (b<= 10)
+	{
+	  
+   printf ("\n%d",a*b);
+   b++;
+	}
+    return 0;
+}
+
+15)
+#include<stdio.h>
+int main ()
+{
+  int a=1;
+  int b=2;
+  int c=3;
+  int d=4;
+  int e=5;
+  int f=6;
+  int g=7;
+  int h=8;
+  int i=9;
+  int j=10;
+  
+  while(a<=10){
+      printf("\n%d",a*a);
+      printf("\n%d",b*a);
+      printf("\n%d",c*a);
+      printf("\n%d",d*a);
+      printf("\n%d",e*a);
+      printf("\n%d",f*a);
+      printf("\n%d",g*a);
+      printf("\n%d",h*a);
+      printf("\n%d",i*a);
+      printf("\n%d",j*a);
+      
+      a++;
+      
+  }
+
+  return 0;
+}
+
+16)#include <stdio.h>
+
+int main()
+{
+   int num=1;
+   while(num<100){
+   
+   
+   if(num%7==0 && num%3==0)
+       printf("%d\n",num);
+       num++;
+   }
+   
+   
+return 0;
+}
+17)#include <stdio.h>
+
+int main()
+{
+   int num=1;
+   while(num<100){
+   
+   
+   if(num%5==0 && num%11==0)
+       printf("%d\n",num);
+       num++;
+   }
+   
+   
+return 0;
+}
+
+
+18)#include <stdio.h>
+
+int main()
+{
+   int num=100;
+   while(num>1){
+   
+   
+   if(num%5==0 && num%11==0)
+       printf("%d\n",num);
+       num--;
+   }
+   
+   
+return 0;
+}
+
+19)#include<stdio.h>
+int main ()
+{
+ int a=10;
+ int total;
+ while(a>=1){
+     total=a*2;
+     printf("%d\n",total);
+     a--;
+ }
+  return 0;
+}
+ 
+20)#include<stdio.h>
+int main ()
+{
+    int a=100;
+    int n,m;
+    printf("enter tha value of n and m");
+    scanf("%d %d",&n, &m);
+    while(a>=1){
+        if(a%n==0 &&a%m==0)
+            printf("divide by n and m%d\n",a);
+            a--;
+        }   
+    
+    return 0;
+    
+}
+
+21)#include<stdio.h>
+int
+main ()
+{
+  int a=1;
+  int total=0;
+  while (a<=100)
+	{
+	    if(a%2==0)
+	   
+	        printf ("\nsum of %d ",total);
+	        total=total+1;
+	        a++;
+	   }
+	   
+	   return 0;
+	}
+	        
+	        
+	  
+22)#include<stdio.h>
+int
+main ()
+{
+  int a=1;
+  int total=0;
+  while (a<=100)
+	{
+	    if(a%2!=0)
+	      printf ("\nodd no %d ",a);
+	        total=total+1;
+	        a++;
+	   }
+	   
+	   return 0;
+	}
+	     
+#include<stdio.h>
+int main (){
+    int c,f;
+    printf("enter the value of c");
+    scanf("%d",& c);
+    
+    f=c*(9/5)+32;
+    printf("value of f%d",f);
+    return 0;
+}
+
+#include<stdio.h>
+int
+main ()
+{
+  int num = 1;
+
+  while (num <= 70)
+	{
+
+
+	  if (num % 5 == 0)
+		{
+		  printf ("\n%d is divisile by 5", num);
+		}
+	  num++;
+	}
+
+  return 0;
+}   
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    
+    if(a>15){
+        printf("a is greater than 15");
+        
+       }
+       else if (a>10){
+       printf(" a is greater than 10");
+}
+else{
+    printf("smaller");
+}
+    
+
+    return 0;
+}
+
+
+#include<stdio.h>
+int
+main ()
+{
+  int num = 80;
+
+  while (num >= 2)
+	{
+
+     printf ("\n%d ",num);
+
+	  num--;
+	}
+
+  return 0;
+}
+
+        
+	  
+
+
