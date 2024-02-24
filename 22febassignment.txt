@@ -1,0 +1,185 @@
+1) 
+#include<stdio.h>
+int main(){
+    int voter_id;
+    printf("enter thevalue of ");
+    scanf("%d",&voter_id);
+    if(voter_id>=18){
+        printf("elidigible");
+    }
+    else{
+        printf("not elidigible");
+        
+    }
+
+return 0;
+} 
+
+2)
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+      if(a>=10){
+      printf("a is greater than 10");
+     }
+    return 0;
+}
+
+3)#include<stdio.h>
+int main(){
+   int a,b;
+   printf("enter the value of a and b");
+   scanf("%d %d", &a,&b);
+   if(a<=b){
+       printf("b is greater than a");
+       
+}
+else{
+    printf("not greater");
+}
+return 0;
+}
+
+
+4)#include<stdio.h>
+int main(){
+    int a=15;
+    int b=18;
+    int c=5;
+     if(a>b && a>c ){
+     printf("a is greater than b");
+     }
+      else if(c>a && c>b){
+          printf("c is greater than b");
+      }
+     else{
+         printf("b is greater");
+     }
+
+return 0;
+} 
+
+5)#include <stdio.h>
+
+int main()
+{
+int a,b,c,d,e;
+printf("enter the value");
+scanf("%d%d%d%d%d",&a, &b,&c,&d,&e);
+if(a<=b){
+    printf("a is minimum");
+}
+else if(b<=c){
+    printf("b is minimum");
+}
+else if(c<=d){
+    printf("c is minimum");
+}
+else if(d<=e){
+    printf("d is minimum");
+}
+    else {
+        printf("e is minimum");
+    }
+
+
+    return 0;
+}
+
+6)#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    
+    if(num<0){
+        printf("value is negative");
+        }
+        else if(num==0){
+            printf("value is zero");
+        }
+        else if(num>0){
+            printf("value is positive");
+        }
+}
+
+7)#include <stdio.h>
+
+int main()
+{
+   char ch;
+  printf("enter the character");
+   scanf("%c",&ch);
+   if(ch=='a'|| ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+       printf("vowel");
+     }
+     else{
+         printf("consonant");
+     }
+
+return 0;
+}
+
+8)#include <stdio.h>
+
+int main()
+{
+   int num;
+   printf("enter a number");
+   scanf("%d",&num);
+   if(num%5==0 && num%11==0){
+       printf("multiple of 5 and 11");
+   }
+   else{
+       printf("not multiple of 5 and 11");
+       
+   }
+return 0;
+}
+
+9)#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the values of a,b and c");
+    scanf("%d%d%d",&a,&b,&c);
+    c=a;
+    a=b;
+    b=c;
+    printf("swap two no. with third variable%d,\n%d",a,b);
+    
+
+return 0;
+}
+10)#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the values of a");
+    scanf("%d",&a);
+    if(a<20){
+        printf("greater than 20");
+    }
+    else if(a>20 && a<50){
+        printf("greater than 20 and less than 50");
+    }
+    else if(a>50 && a<90){
+        printf("greater than 50 and less than 90");
+    }
+    else if(a<90){
+        printf("greater than 90");
+        
+    }
+    
+    else{
+        printf("any no.");
+    }
+
+return 0;
+}
