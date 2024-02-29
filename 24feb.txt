@@ -1,0 +1,349 @@
+1)#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=2;i<10;i++){
+        printf("\n%d",i);
+        
+        
+        // nested loop
+        for(j=1;j<=10;j++){
+            printf("\nj is %d",i*j);
+            
+            
+        }
+    }
+    
+
+ return 0;
+}
+2) print odd number from 90 to 20 and also print for table
+
+
+3)print 1234 
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=1;i<=4;i++){
+        for(j=1;j<=4;j++){
+    printf("%d",j);
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+4)print 4 star
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=1;i<=4;i++){
+        for(j=1;j<=4;j++){
+    printf("*");
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+5)print * according to i value 
+*
+**
+***
+****
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=1;i<=4;i++){
+        for(j=1;j<=i;j++){
+    printf("*");
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+
+6)print 1 to 6 star in new lkine according to i
+*
+**
+***
+****
+*****
+******
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=1;i<=6;i++){
+        for(j=1;j<=i;j++){
+    printf("*");
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+7)opposite
+
+******
+*****
+****
+***
+**
+*
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=6;i>=1;i--){
+        for(j=1;j<=i;j++){
+    printf("*");
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+8) print 
+1
+12
+123
+1234
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=1;i<=4;i++){
+        for(j=1;j<=i;j++){
+    printf("%d",j);
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+
+9) print
+1
+23
+456
+78910
+#include <stdio.h>
+
+int main()
+{
+    int i,j,num=1;
+    
+    for(i=1;i<=4;i++){
+        for(j=1;j<=i;j++){
+             
+             printf(" %d",num);
+             num++;
+            
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+
+10)
+print
+11
+12 13
+14 15 16 
+16 17 18 19 20
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j,num=11;
+    
+    for(i=1;i<=4;i++){
+        for(j=1;j<=i;j++){
+             
+             printf(" %d",num);
+             num++;
+            
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+11) 5 bar run krna h but print sirf 4 lines honi chiye 
+****
+***
+**
+*
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=5;i>=1;i--){
+        for(j=1;j<=i-1;j++){
+             
+             printf(" * ");
+             
+            
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+12)
+$$$*
+$$**
+$***
+****
+#include <stdio.h>
+
+int main()
+{
+    int i,j,k;
+    
+    
+    for(i=0; i<4; i++){
+        
+        for(k=0;k<4-i-1;k++)
+            printf("$");
+            
+           for(j=0;j<=i;j++)
+               printf("*");
+             
+            
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+
+13)
+*****
+****$
+***$$
+**$$$
+*$$$$
+#include <stdio.h>
+
+int main()
+{
+    int i,j,k;
+    
+    
+    for(i=0; i<5; i++){
+        
+        for(k=0;k<5-i-1;k++)
+            printf("*");
+            
+           for(j=0;j<=i;j++)
+               printf("$");
+             
+            
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+
+
+
+14)
+A
+AB
+ABC
+ABCD
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    
+    for(i=0;i<4;i++){
+        for(j=0;j<=i;j++){
+    printf("%c",'A'+j);
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+15)
+
+A
+BC
+DEF
+GHIJ
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    char k='A';
+    
+    for(i=0;i<4;i++){
+        for(j=0;j<=i;j++){
+    printf("%c",k++);
+    
+        }
+        printf("\n");
+         }
+         
+    return 0;
+}
+
+16)
+*
+**
+****
+********
+****************
+   
+
+

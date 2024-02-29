@@ -1,0 +1,199 @@
+#include<stdio.h>
+
+// function declaration  \\x=10, x=20  // parameter is x,y
+void test(int x){
+    printf("\nhello world%d",x);
+}
+
+int main(){
+    
+    test(10); // 10 is argument
+    test(20);
+    return 0;
+}
+
+
+#include<stdio.h>
+
+// function declaration  \\x=10, x=20  // parameter is x,y
+void test(int x,int y){
+    printf("\nhello world%d",x*y);
+}
+
+int main(){
+    
+    test(10,15); // 10 is argument
+    test(20,30);
+    return 0;
+}
+
+#include<stdio.h>
+
+// function declaration  \\x=10, x=20  // parameter is x,y
+void test(int x,int y){
+    if(x==10){
+        printf("\nhello world %d",x*y);
+    }
+    else{
+        printf("\nnot");
+    }
+
+}
+
+int main(){
+    
+    test(10,15); // 10 is argument
+    test(20,30);
+    return 0;
+}
+
+#include<stdio.h>
+
+// function declaration  \\x=10, x=20  // parameter is x,y
+void test(int num){
+    int i;
+    for(i=1;i<=num;i++){
+        printf("\nvalue of i %d",i);
+        
+    }
+    
+
+}
+
+int main(){
+    
+    test(15);
+    return 0;
+}
+
+
+table 2 to 10 
+#include<stdio.h>
+
+// function declaration  \\x=10, x=20  // parameter is x,y
+void test(int num){
+    int i,j;
+    
+    // i =2   i< 10
+    for(i=1;i<=num;i++){
+        
+        // j=1   ,  j<=10       2*10
+        for(j=1;j<=num;j++){
+        printf("\nvalue of i %d",i*j);
+        
+    }
+    } 
+
+}
+
+int main(){
+    
+    test(10);
+    return 0;
+}
+
+print 1 tavle 
+#include<stdio.h>
+
+// function declaration  \\x=10, x=20  // parameter is x,y
+void test(int num){
+    int i;
+    
+    // i =2   i< 10
+    for(i=1;i<=num;i++){
+        
+       
+        
+        printf("\nvalue of i %d",i*num);
+        
+    }
+    } 
+
+
+
+int main(){
+    
+    test(10);
+    return 0;
+}
+
+
+#include<stdio.h>
+int regex(int x){
+    printf("calling regex function");
+    return x+20;
+}
+
+int main(){
+    int z;
+    printf("hello world method\n");
+    z=regex(30);
+    printf("\na is %d",z);
+}
+
+
+#include<stdio.h>
+int regex(int x,int y){
+    printf("calling regex function");
+    return x+y;
+    
+}
+
+int main(){
+    int z;
+    printf("hello world method\n");
+    z=regex(30,40);
+    printf("\na is %d",z);
+}
+
+even odd 
+#include<stdio.h>
+void regex(int x){
+    printf("calling regex function");
+    if(x%2==0){
+        printf("\neven number");
+    }
+    else{
+        printf("\nodd number");
+    }
+    
+    
+    
+}
+
+int main(){
+    int z;
+    printf("hello world method\n");
+    regex(10);
+    //printf("\na is %d",z);
+}
+
+
+
+
+
+even odd 
+#include<stdio.h>
+void regex(int x){
+    printf("calling regex function");
+    int i;
+    for(x=1;x<=i;i++){
+    
+    }
+    if(x%2==0){
+        printf("\neven number");
+    }
+    else{
+        printf("\nodd number");
+    }
+    
+    } 
+    
+}
+
+int main(){
+    int z;
+    printf("hello world method\n");
+    regex(10);
+    //printf("\na is %d",z);
+}
